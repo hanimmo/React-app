@@ -1,25 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import Header from '../src/Header/Header'
+import Body from '../src/body/body'
+import Footer from '../src/Footer/footer'
+import About from '../src/About/about'
+import Shop from '../src/Shop/shop'
+import Nav from '../src/Nav/nav'
+class App extends React.Component {
+  render() {
+    return (
+      <div>
+        <h1>Hanim Mohammed</h1>
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+        <Header/> 
+        <Body/>
+        <Footer/>
+        <About/>
+        <Shop/>
+        <Nav/>
+
+
+
+      </div>
+    )
+  }
 }
 
 export default App;
