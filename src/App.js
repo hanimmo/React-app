@@ -5,6 +5,9 @@ import Footer from '../src/Footer/footer'
 import About from '../src/About/about'
 import Shop from '../src/Shop/shop'
 import Nav from '../src/Nav/nav'
+import Menu from '../src/Menu/menu'
+
+
 class App extends React.Component {
   render() {
     return (
@@ -17,6 +20,8 @@ class App extends React.Component {
         <About/>
         <Shop/>
         <Nav/>
+        <Menu/>
+       
 
 
 
